@@ -32,18 +32,22 @@ main {
     height: 500px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.432);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #imagem {
     display: block;
     background-image: url('../imagens/pexels-divinetechygirl-1181325.jpg');
     height: 200px;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #formulario {
-    display: block;
     padding: 10px;
+    display: block;
 }
 
 
